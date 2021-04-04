@@ -20,23 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16758b06-b4a0-4f1d-844b-c1c64f8682b8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com.zipcodewilmington.dashamaps/DashaMapOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com.zipcodewilmington.dashamaps/DashaMapThree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com.zipcodewilmington.dashamaps/DashaMapTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com.zipcodewilmington.dashamaps/HashMapX.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com.zipcodewilmington.dashamaps/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com.zipcodewilmington.dashamaps/DashaMapOneTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com.zipcodewilmington.dashamaps/DashaMapThreeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com.zipcodewilmington.dashamaps/DashaMapTwoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com.zipcodewilmington.dashamaps/TestHarness.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DashaMaps.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DashaMaps.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/word-list.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/word-list.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com.zipcodewilmington.dashamaps/TestHarness.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com.zipcodewilmington.dashamaps/TestHarness.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/zipcodewilmington/dashamaps/TestHarness.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/zipcodewilmington/dashamaps/TestHarness.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +66,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DashaMapThreeTest">
+  <component name="RunManager" selected="JUnit.TestHarness.test2">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -109,7 +95,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DashaMapThreeTest.testConstructor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DashaMapTwoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DashaMaps" />
       <extension name="coverage">
         <pattern>
@@ -118,15 +104,31 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.zipcodewilmington.dashamaps" />
-      <option name="MAIN_CLASS_NAME" value="com.zipcodewilmington.dashamaps.DashaMapThreeTest" />
-      <option name="METHOD_NAME" value="testConstructor" />
+      <option name="MAIN_CLASS_NAME" value="com.zipcodewilmington.dashamaps.DashaMapTwoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestHarness.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DashaMaps" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zipcodewilmington.dashamaps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zipcodewilmington.dashamaps" />
+      <option name="MAIN_CLASS_NAME" value="com.zipcodewilmington.dashamaps.TestHarness" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DashaMapThreeTest.testFindIn2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestHarness.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DashaMaps" />
       <extension name="coverage">
         <pattern>
@@ -135,15 +137,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.zipcodewilmington.dashamaps" />
-      <option name="MAIN_CLASS_NAME" value="com.zipcodewilmington.dashamaps.DashaMapThreeTest" />
-      <option name="METHOD_NAME" value="testFindIn2" />
+      <option name="MAIN_CLASS_NAME" value="com.zipcodewilmington.dashamaps.TestHarness" />
+      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DashaMapThreeTest.testSet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestHarness.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DashaMaps" />
       <extension name="coverage">
         <pattern>
@@ -152,25 +154,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.zipcodewilmington.dashamaps" />
-      <option name="MAIN_CLASS_NAME" value="com.zipcodewilmington.dashamaps.DashaMapThreeTest" />
-      <option name="METHOD_NAME" value="testSet" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DashaMapThreeTest.testSize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DashaMaps" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zipcodewilmington.dashamaps.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zipcodewilmington.dashamaps" />
-      <option name="MAIN_CLASS_NAME" value="com.zipcodewilmington.dashamaps.DashaMapThreeTest" />
-      <option name="METHOD_NAME" value="testSize" />
+      <option name="MAIN_CLASS_NAME" value="com.zipcodewilmington.dashamaps.TestHarness" />
+      <option name="METHOD_NAME" value="test3" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -204,11 +189,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestHarness.test2" />
+        <item itemvalue="JUnit.DashaMapTwoTest" />
+        <item itemvalue="JUnit.TestHarness.test1" />
+        <item itemvalue="JUnit.TestHarness.test3" />
         <item itemvalue="JUnit.DashaMapThreeTest" />
-        <item itemvalue="JUnit.DashaMapThreeTest.testFindIn2" />
-        <item itemvalue="JUnit.DashaMapThreeTest.testSet" />
-        <item itemvalue="JUnit.DashaMapThreeTest.testSize" />
-        <item itemvalue="JUnit.DashaMapThreeTest.testConstructor" />
       </list>
     </recent_temporary>
   </component>
@@ -225,7 +210,7 @@
       <workItem from="1565357947238" duration="6000" />
       <workItem from="1565357963802" duration="4390000" />
       <workItem from="1617497560848" duration="1302000" />
-      <workItem from="1617498924783" duration="23693000" />
+      <workItem from="1617498924783" duration="24006000" />
     </task>
     <servers />
   </component>
@@ -249,22 +234,22 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="587" y="247" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/1920.23.1280.777/0.23.1920.1057@0.23.1920.1057" timestamp="1617498538620" />
-    <state width="1878" height="395" key="GridCell.Tab.0.bottom" timestamp="1617578821589">
+    <state width="1878" height="227" key="GridCell.Tab.0.bottom" timestamp="1617579162418">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="395" key="GridCell.Tab.0.bottom/1920.673.1280.777/0.23.1920.1057@0.23.1920.1057" timestamp="1617578821589" />
-    <state width="1878" height="395" key="GridCell.Tab.0.center" timestamp="1617578821588">
+    <state width="1878" height="227" key="GridCell.Tab.0.bottom/1920.673.1280.777/0.23.1920.1057@0.23.1920.1057" timestamp="1617579162418" />
+    <state width="1878" height="227" key="GridCell.Tab.0.center" timestamp="1617579162417">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="395" key="GridCell.Tab.0.center/1920.673.1280.777/0.23.1920.1057@0.23.1920.1057" timestamp="1617578821588" />
-    <state width="1878" height="395" key="GridCell.Tab.0.left" timestamp="1617578821587">
+    <state width="1878" height="227" key="GridCell.Tab.0.center/1920.673.1280.777/0.23.1920.1057@0.23.1920.1057" timestamp="1617579162417" />
+    <state width="1878" height="227" key="GridCell.Tab.0.left" timestamp="1617579162417">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="395" key="GridCell.Tab.0.left/1920.673.1280.777/0.23.1920.1057@0.23.1920.1057" timestamp="1617578821587" />
-    <state width="1878" height="395" key="GridCell.Tab.0.right" timestamp="1617578821588">
+    <state width="1878" height="227" key="GridCell.Tab.0.left/1920.673.1280.777/0.23.1920.1057@0.23.1920.1057" timestamp="1617579162417" />
+    <state width="1878" height="227" key="GridCell.Tab.0.right" timestamp="1617579162417">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="395" key="GridCell.Tab.0.right/1920.673.1280.777/0.23.1920.1057@0.23.1920.1057" timestamp="1617578821588" />
+    <state width="1878" height="227" key="GridCell.Tab.0.right/1920.673.1280.777/0.23.1920.1057@0.23.1920.1057" timestamp="1617579162417" />
     <state width="1878" height="2" key="GridCell.Tab.1.bottom" timestamp="1617515014885">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>

@@ -27,9 +27,9 @@ public class TestHarness {
         }
     }
 
-
+/*
     @Test
-    public void testTheTestHarness() {
+    public void test1() {
         DashaMapOne d = new DashaMapOne();
         this.loadFile(d);
         System.out.println("value of i is: " + d.get("i")); //1
@@ -38,5 +38,25 @@ public class TestHarness {
         System.out.println("value of now is: " + d.get("now")); //5
     }
 
+    @Test
+    public void test2() {
+        DashaMapTwo d = new DashaMapTwo();
+        this.loadFile(d);
+        System.out.println("value of i is: " + d.get("i")); //1
+        System.out.println("value of me is: " + d.get("me")); //2
+        System.out.println("value of same is: " + d.get("same")); //77
+        System.out.println("value of now is: " + d.get("now")); //5
+    }
 
+    @Test
+    public void test3() {
+        DashaMapThree d = new DashaMapThree();
+        this.loadFile(d);
+        System.out.println("value of i is: " + d.get("i")); //1
+        System.out.println("value of me is: " + d.get("me")); //2
+        System.out.println("value of same is: " + d.get("same")); //77
+        System.out.println("value of now is: " + d.get("now")); //5
+    }
+
+ */
 }

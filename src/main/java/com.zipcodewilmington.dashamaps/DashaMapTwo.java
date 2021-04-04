@@ -22,8 +22,10 @@ public class DashaMapTwo implements HashMapX {
     }
 
     public String hashFunctionTwo(String input) {
-        if (input.length() > 0) {
+        if (input.length() > 1) {
             return (String.valueOf(input.charAt(1))).toLowerCase();
+        } else if (input.length() == 1) {
+            return (String.valueOf(input.charAt(0))).toLowerCase();
         }
         return null;
     }
